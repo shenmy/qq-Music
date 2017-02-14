@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "QMNavigationController.h"
+#import "QMMainVC.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    QMMainVC *mainVC = [[QMMainVC alloc]init];
+    QMNavigationController *nav = [[QMNavigationController alloc]initWithRootViewController:mainVC];
+    self.window.rootViewController = nav;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

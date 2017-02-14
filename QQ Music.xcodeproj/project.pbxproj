@@ -7,14 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		939CEBD2659B0B5CDA4464BF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 549B1DDA3D05AF4B28175302 /* libPods.a */; };
+		94492EDB1D6C1DD800903DDC /* QMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EDA1D6C1DD800903DDC /* QMCollectionViewCell.m */; };
+		94492EE01D6C1E9700903DDC /* NSObject+BeeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EDF1D6C1E9700903DDC /* NSObject+BeeNotification.m */; };
+		94492EE31D6C1F3800903DDC /* NSObject+PerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EE21D6C1F3800903DDC /* NSObject+PerformBlock.m */; };
+		94492EE61D6C1FE800903DDC /* QMCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EE51D6C1FE800903DDC /* QMCollectionView.m */; };
+		94492EE91D6C207900903DDC /* QMCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EE81D6C207900903DDC /* QMCollectionReusableView.m */; };
+		94492EED1D6C216200903DDC /* QMWeakObjectDeathNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EEC1D6C216200903DDC /* QMWeakObjectDeathNotifier.m */; };
+		94492EF01D6C225700903DDC /* NSObject+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EEF1D6C225700903DDC /* NSObject+category.m */; };
+		94492EF31D6C251600903DDC /* QMMyInfoCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EF21D6C251600903DDC /* QMMyInfoCVCell.m */; };
+		94492EF61D6C26AE00903DDC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EF51D6C26AE00903DDC /* UIView+Extension.m */; };
+		94492EF91D6C3E0000903DDC /* QMMyMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EF81D6C3E0000903DDC /* QMMyMusicCell.m */; };
+		94492EFC1D6C400600903DDC /* QMSearchCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EFB1D6C400600903DDC /* QMSearchCVCell.m */; };
+		94492EFF1D6C4F1B00903DDC /* QMSelectedTypeMusicCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94492EFE1D6C4F1B00903DDC /* QMSelectedTypeMusicCVCell.m */; };
+		944E30951D6D382800B3A808 /* QMEssenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30941D6D382800B3A808 /* QMEssenceVC.m */; };
+		944E30981D6D3D4900B3A808 /* QMMusicListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30971D6D3D4900B3A808 /* QMMusicListVC.m */; };
+		944E309B1D6D3D6B00B3A808 /* QMMVVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E309A1D6D3D6B00B3A808 /* QMMVVC.m */; };
+		944E309E1D6D3D7B00B3A808 /* QMRadioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E309D1D6D3D7B00B3A808 /* QMRadioVC.m */; };
+		944E30A11D6D3D8B00B3A808 /* QMRankingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30A01D6D3D8B00B3A808 /* QMRankingVC.m */; };
+		944E30AA1D6D4A6100B3A808 /* QMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30A91D6D4A6100B3A808 /* QMTableViewCell.m */; };
+		944E30B61D6D4F9200B3A808 /* QMRadioCollectionCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30B51D6D4F9200B3A808 /* QMRadioCollectionCVCell.m */; };
+		944E30BC1D6D5C4000B3A808 /* QMRadioTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30BB1D6D5C4000B3A808 /* QMRadioTableCell.m */; };
+		944E30BF1D6D7B0400B3A808 /* QMRadioCollectionHeadCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30BE1D6D7B0400B3A808 /* QMRadioCollectionHeadCVCell.m */; };
+		944E30C41D6D934100B3A808 /* QMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30C31D6D934100B3A808 /* QMView.m */; };
+		944E30C71D6D937700B3A808 /* QMCyclePageImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30C61D6D937700B3A808 /* QMCyclePageImageView.m */; };
+		944E30CA1D6D946600B3A808 /* QMPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30C91D6D946600B3A808 /* QMPageControl.m */; };
+		944E30CD1D6D955700B3A808 /* QMCyclePageImageViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30CC1D6D955700B3A808 /* QMCyclePageImageViewLayout.m */; };
+		944E30D01D6D95A300B3A808 /* QMCyclePageImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30CF1D6D95A300B3A808 /* QMCyclePageImageViewCell.m */; };
+		944E30D61D6D964100B3A808 /* QMBlockImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30D51D6D964100B3A808 /* QMBlockImageView.m */; };
+		944E30D91D6D96E000B3A808 /* QMPlaceholderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30D81D6D96E000B3A808 /* QMPlaceholderImageView.m */; };
+		944E30DD1D6D974F00B3A808 /* UIView+create.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30DC1D6D974F00B3A808 /* UIView+create.m */; };
+		944E30E11D6D999500B3A808 /* QMConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E30E01D6D999500B3A808 /* QMConstraintHelper.m */; };
 		946126BB1D6AEBBA003C66F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 946126BA1D6AEBBA003C66F2 /* main.m */; };
 		946126BE1D6AEBBA003C66F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 946126BD1D6AEBBA003C66F2 /* AppDelegate.m */; };
-		946126C11D6AEBBA003C66F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946126C01D6AEBBA003C66F2 /* ViewController.m */; };
-		946126C41D6AEBBA003C66F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946126C21D6AEBBA003C66F2 /* Main.storyboard */; };
 		946126C61D6AEBBA003C66F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946126C51D6AEBBA003C66F2 /* Assets.xcassets */; };
 		946126C91D6AEBBA003C66F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946126C71D6AEBBA003C66F2 /* LaunchScreen.storyboard */; };
 		946126D41D6AEBBA003C66F2 /* QQ_MusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 946126D31D6AEBBA003C66F2 /* QQ_MusicTests.m */; };
 		946126DF1D6AEBBA003C66F2 /* QQ_MusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 946126DE1D6AEBBA003C66F2 /* QQ_MusicUITests.m */; };
+		946126EF1D6AEC92003C66F2 /* QMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946126EE1D6AEC92003C66F2 /* QMNavigationController.m */; };
+		946126F21D6AECB7003C66F2 /* QMMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 946126F11D6AECB7003C66F2 /* QMMainVC.m */; };
+		946126F61D6AF3AB003C66F2 /* QMMainTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 946126F51D6AF3AB003C66F2 /* QMMainTitleView.m */; };
+		946126FF1D6AFAE3003C66F2 /* QMFindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 946126FE1D6AFAE3003C66F2 /* QMFindVC.m */; };
+		946127021D6AFAEF003C66F2 /* QMMusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 946127011D6AFAEF003C66F2 /* QMMusicVC.m */; };
+		946127051D6AFAFC003C66F2 /* QMMyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 946127041D6AFAFC003C66F2 /* QMMyVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +70,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21F8EA764FAC8A38CF1C4989 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		549B1DDA3D05AF4B28175302 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94492ED91D6C1DD800903DDC /* QMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCollectionViewCell.h; sourceTree = "<group>"; };
+		94492EDA1D6C1DD800903DDC /* QMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCollectionViewCell.m; sourceTree = "<group>"; };
+		94492EDE1D6C1E9700903DDC /* NSObject+BeeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeNotification.h"; sourceTree = "<group>"; };
+		94492EDF1D6C1E9700903DDC /* NSObject+BeeNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeNotification.m"; sourceTree = "<group>"; };
+		94492EE11D6C1F3800903DDC /* NSObject+PerformBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlock.h"; sourceTree = "<group>"; };
+		94492EE21D6C1F3800903DDC /* NSObject+PerformBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformBlock.m"; sourceTree = "<group>"; };
+		94492EE41D6C1FE800903DDC /* QMCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCollectionView.h; sourceTree = "<group>"; };
+		94492EE51D6C1FE800903DDC /* QMCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCollectionView.m; sourceTree = "<group>"; };
+		94492EE71D6C207900903DDC /* QMCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCollectionReusableView.h; sourceTree = "<group>"; };
+		94492EE81D6C207900903DDC /* QMCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCollectionReusableView.m; sourceTree = "<group>"; };
+		94492EEB1D6C216200903DDC /* QMWeakObjectDeathNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMWeakObjectDeathNotifier.h; sourceTree = "<group>"; };
+		94492EEC1D6C216200903DDC /* QMWeakObjectDeathNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMWeakObjectDeathNotifier.m; sourceTree = "<group>"; };
+		94492EEE1D6C225700903DDC /* NSObject+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+category.h"; sourceTree = "<group>"; };
+		94492EEF1D6C225700903DDC /* NSObject+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+category.m"; sourceTree = "<group>"; };
+		94492EF11D6C251600903DDC /* QMMyInfoCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMMyInfoCVCell.h; sourceTree = "<group>"; };
+		94492EF21D6C251600903DDC /* QMMyInfoCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMMyInfoCVCell.m; sourceTree = "<group>"; };
+		94492EF41D6C26AE00903DDC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		94492EF51D6C26AE00903DDC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		94492EF71D6C3E0000903DDC /* QMMyMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMMyMusicCell.h; sourceTree = "<group>"; };
+		94492EF81D6C3E0000903DDC /* QMMyMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMMyMusicCell.m; sourceTree = "<group>"; };
+		94492EFA1D6C400600903DDC /* QMSearchCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMSearchCVCell.h; sourceTree = "<group>"; };
+		94492EFB1D6C400600903DDC /* QMSearchCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMSearchCVCell.m; sourceTree = "<group>"; };
+		94492EFD1D6C4F1B00903DDC /* QMSelectedTypeMusicCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMSelectedTypeMusicCVCell.h; sourceTree = "<group>"; };
+		94492EFE1D6C4F1B00903DDC /* QMSelectedTypeMusicCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMSelectedTypeMusicCVCell.m; sourceTree = "<group>"; };
+		944E30931D6D382800B3A808 /* QMEssenceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMEssenceVC.h; sourceTree = "<group>"; };
+		944E30941D6D382800B3A808 /* QMEssenceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMEssenceVC.m; sourceTree = "<group>"; };
+		944E30961D6D3D4900B3A808 /* QMMusicListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMMusicListVC.h; sourceTree = "<group>"; };
+		944E30971D6D3D4900B3A808 /* QMMusicListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMMusicListVC.m; sourceTree = "<group>"; };
+		944E30991D6D3D6B00B3A808 /* QMMVVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMMVVC.h; sourceTree = "<group>"; };
+		944E309A1D6D3D6B00B3A808 /* QMMVVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMMVVC.m; sourceTree = "<group>"; };
+		944E309C1D6D3D7B00B3A808 /* QMRadioVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMRadioVC.h; sourceTree = "<group>"; };
+		944E309D1D6D3D7B00B3A808 /* QMRadioVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMRadioVC.m; sourceTree = "<group>"; };
+		944E309F1D6D3D8B00B3A808 /* QMRankingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMRankingVC.h; sourceTree = "<group>"; };
+		944E30A01D6D3D8B00B3A808 /* QMRankingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMRankingVC.m; sourceTree = "<group>"; };
+		944E30A81D6D4A6100B3A808 /* QMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMTableViewCell.h; sourceTree = "<group>"; };
+		944E30A91D6D4A6100B3A808 /* QMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMTableViewCell.m; sourceTree = "<group>"; };
+		944E30B41D6D4F9200B3A808 /* QMRadioCollectionCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMRadioCollectionCVCell.h; sourceTree = "<group>"; };
+		944E30B51D6D4F9200B3A808 /* QMRadioCollectionCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMRadioCollectionCVCell.m; sourceTree = "<group>"; };
+		944E30BA1D6D5C4000B3A808 /* QMRadioTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMRadioTableCell.h; sourceTree = "<group>"; };
+		944E30BB1D6D5C4000B3A808 /* QMRadioTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMRadioTableCell.m; sourceTree = "<group>"; };
+		944E30BD1D6D7B0400B3A808 /* QMRadioCollectionHeadCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMRadioCollectionHeadCVCell.h; sourceTree = "<group>"; };
+		944E30BE1D6D7B0400B3A808 /* QMRadioCollectionHeadCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMRadioCollectionHeadCVCell.m; sourceTree = "<group>"; };
+		944E30C21D6D934100B3A808 /* QMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMView.h; sourceTree = "<group>"; };
+		944E30C31D6D934100B3A808 /* QMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMView.m; sourceTree = "<group>"; };
+		944E30C51D6D937700B3A808 /* QMCyclePageImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCyclePageImageView.h; sourceTree = "<group>"; };
+		944E30C61D6D937700B3A808 /* QMCyclePageImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCyclePageImageView.m; sourceTree = "<group>"; };
+		944E30C81D6D946600B3A808 /* QMPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMPageControl.h; sourceTree = "<group>"; };
+		944E30C91D6D946600B3A808 /* QMPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMPageControl.m; sourceTree = "<group>"; };
+		944E30CB1D6D955700B3A808 /* QMCyclePageImageViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCyclePageImageViewLayout.h; sourceTree = "<group>"; };
+		944E30CC1D6D955700B3A808 /* QMCyclePageImageViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCyclePageImageViewLayout.m; sourceTree = "<group>"; };
+		944E30CE1D6D95A300B3A808 /* QMCyclePageImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCyclePageImageViewCell.h; sourceTree = "<group>"; };
+		944E30CF1D6D95A300B3A808 /* QMCyclePageImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCyclePageImageViewCell.m; sourceTree = "<group>"; };
+		944E30D41D6D964100B3A808 /* QMBlockImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMBlockImageView.h; sourceTree = "<group>"; };
+		944E30D51D6D964100B3A808 /* QMBlockImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMBlockImageView.m; sourceTree = "<group>"; };
+		944E30D71D6D96E000B3A808 /* QMPlaceholderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMPlaceholderImageView.h; sourceTree = "<group>"; };
+		944E30D81D6D96E000B3A808 /* QMPlaceholderImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMPlaceholderImageView.m; sourceTree = "<group>"; };
+		944E30DB1D6D974F00B3A808 /* UIView+create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+create.h"; sourceTree = "<group>"; };
+		944E30DC1D6D974F00B3A808 /* UIView+create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+create.m"; sourceTree = "<group>"; };
+		944E30DF1D6D999500B3A808 /* QMConstraintHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMConstraintHelper.h; sourceTree = "<group>"; };
+		944E30E01D6D999500B3A808 /* QMConstraintHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMConstraintHelper.m; sourceTree = "<group>"; };
 		946126B61D6AEBBA003C66F2 /* QQ Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		946126BA1D6AEBBA003C66F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		946126BC1D6AEBBA003C66F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		946126BD1D6AEBBA003C66F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		946126BF1D6AEBBA003C66F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		946126C01D6AEBBA003C66F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		946126C31D6AEBBA003C66F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		946126C51D6AEBBA003C66F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		946126C81D6AEBBA003C66F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		946126CA1D6AEBBA003C66F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +145,20 @@
 		946126DA1D6AEBBA003C66F2 /* QQ MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		946126DE1D6AEBBA003C66F2 /* QQ_MusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQ_MusicUITests.m; sourceTree = "<group>"; };
 		946126E01D6AEBBB003C66F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946126ED1D6AEC92003C66F2 /* QMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNavigationController.h; sourceTree = "<group>"; };
+		946126EE1D6AEC92003C66F2 /* QMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMNavigationController.m; sourceTree = "<group>"; };
+		946126F01D6AECB7003C66F2 /* QMMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMMainVC.h; sourceTree = "<group>"; };
+		946126F11D6AECB7003C66F2 /* QMMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMMainVC.m; sourceTree = "<group>"; };
+		946126F31D6AEFF9003C66F2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		946126F41D6AF3AB003C66F2 /* QMMainTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMMainTitleView.h; sourceTree = "<group>"; };
+		946126F51D6AF3AB003C66F2 /* QMMainTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMMainTitleView.m; sourceTree = "<group>"; };
+		946126FD1D6AFAE3003C66F2 /* QMFindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMFindVC.h; sourceTree = "<group>"; };
+		946126FE1D6AFAE3003C66F2 /* QMFindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMFindVC.m; sourceTree = "<group>"; };
+		946127001D6AFAEF003C66F2 /* QMMusicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMMusicVC.h; sourceTree = "<group>"; };
+		946127011D6AFAEF003C66F2 /* QMMusicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMMusicVC.m; sourceTree = "<group>"; };
+		946127031D6AFAFC003C66F2 /* QMMyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMMyVC.h; sourceTree = "<group>"; };
+		946127041D6AFAFC003C66F2 /* QMMyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMMyVC.m; sourceTree = "<group>"; };
+		A4FFC3E628D192132EF32D21 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939CEBD2659B0B5CDA4464BF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +187,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		587D77F4D2DF0E4F600C33EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				549B1DDA3D05AF4B28175302 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94492ED81D6C1D9600903DDC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				944E30DE1D6D997600B3A808 /* Tool */,
+				944E30C11D6D933200B3A808 /* Views */,
+				944E30C01D6D92A900B3A808 /* CustomView */,
+				944E30A81D6D4A6100B3A808 /* QMTableViewCell.h */,
+				944E30A91D6D4A6100B3A808 /* QMTableViewCell.m */,
+				94492ED91D6C1DD800903DDC /* QMCollectionViewCell.h */,
+				94492EDA1D6C1DD800903DDC /* QMCollectionViewCell.m */,
+				94492EE71D6C207900903DDC /* QMCollectionReusableView.h */,
+				94492EE81D6C207900903DDC /* QMCollectionReusableView.m */,
+				94492EE41D6C1FE800903DDC /* QMCollectionView.h */,
+				94492EE51D6C1FE800903DDC /* QMCollectionView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		94492EDD1D6C1E7F00903DDC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				944E30DA1D6D973800B3A808 /* UIView */,
+				94492EDE1D6C1E9700903DDC /* NSObject+BeeNotification.h */,
+				94492EDF1D6C1E9700903DDC /* NSObject+BeeNotification.m */,
+				94492EE11D6C1F3800903DDC /* NSObject+PerformBlock.h */,
+				94492EE21D6C1F3800903DDC /* NSObject+PerformBlock.m */,
+				94492EEE1D6C225700903DDC /* NSObject+category.h */,
+				94492EEF1D6C225700903DDC /* NSObject+category.m */,
+				94492EF41D6C26AE00903DDC /* UIView+Extension.h */,
+				94492EF51D6C26AE00903DDC /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		94492EEA1D6C20F900903DDC /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				94492EEB1D6C216200903DDC /* QMWeakObjectDeathNotifier.h */,
+				94492EEC1D6C216200903DDC /* QMWeakObjectDeathNotifier.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		944E308E1D6D380A00B3A808 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				944E30931D6D382800B3A808 /* QMEssenceVC.h */,
+				944E30941D6D382800B3A808 /* QMEssenceVC.m */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		944E308F1D6D380A00B3A808 /* MusicList */ = {
+			isa = PBXGroup;
+			children = (
+				944E30961D6D3D4900B3A808 /* QMMusicListVC.h */,
+				944E30971D6D3D4900B3A808 /* QMMusicListVC.m */,
+			);
+			path = MusicList;
+			sourceTree = "<group>";
+		};
+		944E30901D6D380A00B3A808 /* MV */ = {
+			isa = PBXGroup;
+			children = (
+				944E30991D6D3D6B00B3A808 /* QMMVVC.h */,
+				944E309A1D6D3D6B00B3A808 /* QMMVVC.m */,
+			);
+			path = MV;
+			sourceTree = "<group>";
+		};
+		944E30911D6D380A00B3A808 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				944E309C1D6D3D7B00B3A808 /* QMRadioVC.h */,
+				944E309D1D6D3D7B00B3A808 /* QMRadioVC.m */,
+				944E30B41D6D4F9200B3A808 /* QMRadioCollectionCVCell.h */,
+				944E30B51D6D4F9200B3A808 /* QMRadioCollectionCVCell.m */,
+				944E30BD1D6D7B0400B3A808 /* QMRadioCollectionHeadCVCell.h */,
+				944E30BE1D6D7B0400B3A808 /* QMRadioCollectionHeadCVCell.m */,
+				944E30BA1D6D5C4000B3A808 /* QMRadioTableCell.h */,
+				944E30BB1D6D5C4000B3A808 /* QMRadioTableCell.m */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		944E30921D6D380A00B3A808 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				944E309F1D6D3D8B00B3A808 /* QMRankingVC.h */,
+				944E30A01D6D3D8B00B3A808 /* QMRankingVC.m */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		944E30C01D6D92A900B3A808 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				944E30C51D6D937700B3A808 /* QMCyclePageImageView.h */,
+				944E30C61D6D937700B3A808 /* QMCyclePageImageView.m */,
+				944E30CB1D6D955700B3A808 /* QMCyclePageImageViewLayout.h */,
+				944E30CC1D6D955700B3A808 /* QMCyclePageImageViewLayout.m */,
+				944E30CE1D6D95A300B3A808 /* QMCyclePageImageViewCell.h */,
+				944E30CF1D6D95A300B3A808 /* QMCyclePageImageViewCell.m */,
+				944E30D41D6D964100B3A808 /* QMBlockImageView.h */,
+				944E30D51D6D964100B3A808 /* QMBlockImageView.m */,
+				944E30D71D6D96E000B3A808 /* QMPlaceholderImageView.h */,
+				944E30D81D6D96E000B3A808 /* QMPlaceholderImageView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		944E30C11D6D933200B3A808 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				944E30C21D6D934100B3A808 /* QMView.h */,
+				944E30C31D6D934100B3A808 /* QMView.m */,
+				944E30C81D6D946600B3A808 /* QMPageControl.h */,
+				944E30C91D6D946600B3A808 /* QMPageControl.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		944E30DA1D6D973800B3A808 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				944E30DB1D6D974F00B3A808 /* UIView+create.h */,
+				944E30DC1D6D974F00B3A808 /* UIView+create.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		944E30DE1D6D997600B3A808 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				944E30DF1D6D999500B3A808 /* QMConstraintHelper.h */,
+				944E30E01D6D999500B3A808 /* QMConstraintHelper.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		946126AD1D6AEBBA003C66F2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +342,8 @@
 				946126D21D6AEBBA003C66F2 /* QQ MusicTests */,
 				946126DD1D6AEBBA003C66F2 /* QQ MusicUITests */,
 				946126B71D6AEBBA003C66F2 /* Products */,
+				E32A6F154FBBC1D88200D87E /* Pods */,
+				587D77F4D2DF0E4F600C33EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +360,15 @@
 		946126B81D6AEBBA003C66F2 /* QQ Music */ = {
 			isa = PBXGroup;
 			children = (
+				94492EEA1D6C20F900903DDC /* Tool */,
+				94492EDD1D6C1E7F00903DDC /* Category */,
+				94492ED81D6C1D9600903DDC /* Base */,
+				946126F71D6AFABA003C66F2 /* Find */,
+				946126F81D6AFABA003C66F2 /* Music */,
+				946126F91D6AFABA003C66F2 /* MyAccount */,
+				946126EC1D6AEC39003C66F2 /* Main */,
 				946126BC1D6AEBBA003C66F2 /* AppDelegate.h */,
 				946126BD1D6AEBBA003C66F2 /* AppDelegate.m */,
-				946126BF1D6AEBBA003C66F2 /* ViewController.h */,
-				946126C01D6AEBBA003C66F2 /* ViewController.m */,
-				946126C21D6AEBBA003C66F2 /* Main.storyboard */,
 				946126C51D6AEBBA003C66F2 /* Assets.xcassets */,
 				946126C71D6AEBBA003C66F2 /* LaunchScreen.storyboard */,
 				946126CA1D6AEBBA003C66F2 /* Info.plist */,
@@ -118,6 +381,7 @@
 			isa = PBXGroup;
 			children = (
 				946126BA1D6AEBBA003C66F2 /* main.m */,
+				946126F31D6AEFF9003C66F2 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +404,68 @@
 			path = "QQ MusicUITests";
 			sourceTree = "<group>";
 		};
+		946126EC1D6AEC39003C66F2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				946126ED1D6AEC92003C66F2 /* QMNavigationController.h */,
+				946126EE1D6AEC92003C66F2 /* QMNavigationController.m */,
+				946126F01D6AECB7003C66F2 /* QMMainVC.h */,
+				946126F11D6AECB7003C66F2 /* QMMainVC.m */,
+				946126F41D6AF3AB003C66F2 /* QMMainTitleView.h */,
+				946126F51D6AF3AB003C66F2 /* QMMainTitleView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		946126F71D6AFABA003C66F2 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				946126FD1D6AFAE3003C66F2 /* QMFindVC.h */,
+				946126FE1D6AFAE3003C66F2 /* QMFindVC.m */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		946126F81D6AFABA003C66F2 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				944E308E1D6D380A00B3A808 /* Essence */,
+				944E308F1D6D380A00B3A808 /* MusicList */,
+				944E30901D6D380A00B3A808 /* MV */,
+				944E30911D6D380A00B3A808 /* Radio */,
+				944E30921D6D380A00B3A808 /* Ranking */,
+				946127001D6AFAEF003C66F2 /* QMMusicVC.h */,
+				946127011D6AFAEF003C66F2 /* QMMusicVC.m */,
+				94492EFD1D6C4F1B00903DDC /* QMSelectedTypeMusicCVCell.h */,
+				94492EFE1D6C4F1B00903DDC /* QMSelectedTypeMusicCVCell.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		946126F91D6AFABA003C66F2 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				946127031D6AFAFC003C66F2 /* QMMyVC.h */,
+				946127041D6AFAFC003C66F2 /* QMMyVC.m */,
+				94492EFA1D6C400600903DDC /* QMSearchCVCell.h */,
+				94492EFB1D6C400600903DDC /* QMSearchCVCell.m */,
+				94492EF11D6C251600903DDC /* QMMyInfoCVCell.h */,
+				94492EF21D6C251600903DDC /* QMMyInfoCVCell.m */,
+				94492EF71D6C3E0000903DDC /* QMMyMusicCell.h */,
+				94492EF81D6C3E0000903DDC /* QMMyMusicCell.m */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		E32A6F154FBBC1D88200D87E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21F8EA764FAC8A38CF1C4989 /* Pods.debug.xcconfig */,
+				A4FFC3E628D192132EF32D21 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +473,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 946126E31D6AEBBB003C66F2 /* Build configuration list for PBXNativeTarget "QQ Music" */;
 			buildPhases = (
+				B25C3B96322159B8170F3983 /* Check Pods Manifest.lock */,
 				946126B21D6AEBBA003C66F2 /* Sources */,
 				946126B31D6AEBBA003C66F2 /* Frameworks */,
 				946126B41D6AEBBA003C66F2 /* Resources */,
+				2859D17C83AA01989948DD07 /* Embed Pods Frameworks */,
+				6DA535EFCDBDA2DD082E40A7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +577,6 @@
 			files = (
 				946126C91D6AEBBA003C66F2 /* LaunchScreen.storyboard in Resources */,
 				946126C61D6AEBBA003C66F2 /* Assets.xcassets in Resources */,
-				946126C41D6AEBBA003C66F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +596,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2859D17C83AA01989948DD07 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA535EFCDBDA2DD082E40A7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B25C3B96322159B8170F3983 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		946126B21D6AEBBA003C66F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946126C11D6AEBBA003C66F2 /* ViewController.m in Sources */,
+				946127051D6AFAFC003C66F2 /* QMMyVC.m in Sources */,
+				944E30C71D6D937700B3A808 /* QMCyclePageImageView.m in Sources */,
+				944E30A11D6D3D8B00B3A808 /* QMRankingVC.m in Sources */,
+				946126F61D6AF3AB003C66F2 /* QMMainTitleView.m in Sources */,
+				94492EFC1D6C400600903DDC /* QMSearchCVCell.m in Sources */,
+				944E30B61D6D4F9200B3A808 /* QMRadioCollectionCVCell.m in Sources */,
+				944E30DD1D6D974F00B3A808 /* UIView+create.m in Sources */,
+				944E30CA1D6D946600B3A808 /* QMPageControl.m in Sources */,
+				94492EE61D6C1FE800903DDC /* QMCollectionView.m in Sources */,
+				944E30CD1D6D955700B3A808 /* QMCyclePageImageViewLayout.m in Sources */,
+				946126FF1D6AFAE3003C66F2 /* QMFindVC.m in Sources */,
+				94492EF31D6C251600903DDC /* QMMyInfoCVCell.m in Sources */,
+				94492EF61D6C26AE00903DDC /* UIView+Extension.m in Sources */,
+				944E30D61D6D964100B3A808 /* QMBlockImageView.m in Sources */,
+				946126EF1D6AEC92003C66F2 /* QMNavigationController.m in Sources */,
+				944E30BC1D6D5C4000B3A808 /* QMRadioTableCell.m in Sources */,
+				94492EF01D6C225700903DDC /* NSObject+category.m in Sources */,
+				946127021D6AFAEF003C66F2 /* QMMusicVC.m in Sources */,
+				94492EF91D6C3E0000903DDC /* QMMyMusicCell.m in Sources */,
+				944E30C41D6D934100B3A808 /* QMView.m in Sources */,
+				944E30D01D6D95A300B3A808 /* QMCyclePageImageViewCell.m in Sources */,
+				94492EE01D6C1E9700903DDC /* NSObject+BeeNotification.m in Sources */,
+				944E309E1D6D3D7B00B3A808 /* QMRadioVC.m in Sources */,
+				944E30981D6D3D4900B3A808 /* QMMusicListVC.m in Sources */,
+				94492EE31D6C1F3800903DDC /* NSObject+PerformBlock.m in Sources */,
+				94492EFF1D6C4F1B00903DDC /* QMSelectedTypeMusicCVCell.m in Sources */,
+				944E30E11D6D999500B3A808 /* QMConstraintHelper.m in Sources */,
+				946126F21D6AECB7003C66F2 /* QMMainVC.m in Sources */,
+				944E30D91D6D96E000B3A808 /* QMPlaceholderImageView.m in Sources */,
+				94492EE91D6C207900903DDC /* QMCollectionReusableView.m in Sources */,
+				944E30951D6D382800B3A808 /* QMEssenceVC.m in Sources */,
+				944E30AA1D6D4A6100B3A808 /* QMTableViewCell.m in Sources */,
 				946126BE1D6AEBBA003C66F2 /* AppDelegate.m in Sources */,
+				94492EDB1D6C1DD800903DDC /* QMCollectionViewCell.m in Sources */,
 				946126BB1D6AEBBA003C66F2 /* main.m in Sources */,
+				944E30BF1D6D7B0400B3A808 /* QMRadioCollectionHeadCVCell.m in Sources */,
+				944E309B1D6D3D6B00B3A808 /* QMMVVC.m in Sources */,
+				94492EED1D6C216200903DDC /* QMWeakObjectDeathNotifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +722,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		946126C21D6AEBBA003C66F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				946126C31D6AEBBA003C66F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		946126C71D6AEBBA003C66F2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,9 +817,12 @@
 		};
 		946126E41D6AEBBB003C66F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F8EA764FAC8A38CF1C4989 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = "QQ Music/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mengyue.cn.QQ-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,9 +831,12 @@
 		};
 		946126E51D6AEBBB003C66F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FFC3E628D192132EF32D21 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = "QQ Music/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mengyue.cn.QQ-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +910,7 @@
 				946126E51D6AEBBB003C66F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946126E61D6AEBBB003C66F2 /* Build configuration list for PBXNativeTarget "QQ MusicTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +919,7 @@
 				946126E81D6AEBBB003C66F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946126E91D6AEBBB003C66F2 /* Build configuration list for PBXNativeTarget "QQ MusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +928,7 @@
 				946126EB1D6AEBBB003C66F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

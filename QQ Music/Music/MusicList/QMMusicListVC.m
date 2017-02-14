@@ -1,22 +1,21 @@
 //
-//  ViewController.m
+//  QMMusicListVC.m
 //  QQ Music
 //
-//  Created by 沈梦月 on 16/8/22.
+//  Created by 沈梦月 on 16/8/24.
 //  Copyright © 2016年 mengyue. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "QMMusicListVC.h"
 
-@interface ViewController ()
-
-@end
-
-@implementation ViewController
+@implementation QMMusicListVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor cyanColor];
+
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

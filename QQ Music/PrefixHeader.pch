@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  QQ Music
+//
+//  Created by 沈梦月 on 16/8/22.
+//  Copyright © 2016年 mengyue. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//weak strong self for retain cycle
+#define WEAK_SELF __weak typeof(self)weakSelf = self
+#define STRONG_SELF __strong typeof(weakSelf)self = weakSelf
+
+
+
+#define UIColorFromRGB(rgbValue) \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8)) / 255.0 \
+blue:((float)(rgbValue & 0xFF)) / 255.0 \
+alpha:1.0]
+
+
+#define IOS_VERSION_LOWER_THAN_8 (NSFoundationVersionNumber <= NSFoundationVersionNumber_iOS_7_1)
+
+#define SCREEN_WIDTH (IOS_VERSION_LOWER_THAN_8 ? (UIInterfaceOrientationIsPortrait([UIApplication sharedApplication].statusBarOrientation) ? [[UIScreen mainScreen] bounds].size.width : [[UIScreen mainScreen] bounds].size.height) : [[UIScreen mainScreen] bounds].size.width)
+
+#define SCREEN_HEIGHT (IOS_VERSION_LOWER_THAN_8 ? (UIInterfaceOrientationIsPortrait([UIApplication sharedApplication].statusBarOrientation) ? [[UIScreen mainScreen] bounds].size.height : [[UIScreen mainScreen] bounds].size.width) : [[UIScreen mainScreen] bounds].size.height)
+
+
+#import <PureLayout/PureLayout.h>
+#import "QMCollectionView.h"
+
+#import "SDWebImageManager.h"
+#import "UIImageView+WebCache.h"
+
+
+//categary
+#import "UIView+Extension.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
